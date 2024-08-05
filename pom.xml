@@ -10,9 +10,9 @@
     </parent>
 
     <groupId>com.manageruser</groupId>
-    <artifactId>source</artifactId>
+    <artifactId>manageruser</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>manager-user</name>
+    <name>root</name>
     <description>manager-user</description>
 
     <modules>

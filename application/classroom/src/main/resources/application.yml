@@ -1,0 +1,13 @@
+spring:
+  main:
+    lazy-initialization: true
+  application:
+    name: classroom_service
+  data:
+    mongodb:
+      uri: mongodb+srv://HoangOanh:Tueanh02@micro-manager-service.1e5azcz.mongodb.net/manager
+      auto-index-creation: true
+
+server:
+  port: 8082
+
