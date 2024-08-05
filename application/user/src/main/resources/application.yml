@@ -1,0 +1,20 @@
+spring:
+  main:
+    lazy-initialization: true
+    allow-bean-definition-overriding: true
+  application:
+    name: user_service
+  data:
+    mongodb:
+      uri: mongodb+srv://HoangOanh:Tueanh02@micro-manager-service.1e5azcz.mongodb.net/manager
+      auto-index-creation: true
+
+server:
+  port: 8081
+
+logging:
+  level:
+    org:
+      springframework: DEBUG
+
+
